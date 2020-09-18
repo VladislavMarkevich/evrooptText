@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 60px minmax(0, 1fr);
+  grid-gap: 20px;
+  width: calc(100% - 40px);
+  max-height: calc(100% - 10px);
+  margin: 0 20px 10px 20px;
+}
+
+.app__logo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 100%;
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+.app__logoImage {
+  text-align: center;
+}
